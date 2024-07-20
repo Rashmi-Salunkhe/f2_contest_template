@@ -39,10 +39,17 @@ function removeAdmin() {
 function concatenateArray() {
   //Write your code here, just console.log
   let newArr = [
-    { id: 5, name: "Ram", age: "22", profession: "designer" },
-    { id: 6, name: "sara", age: "21", profession: "manager" },
-    { id: 7, name: "Bob", age: "20", profession: "tester" },
+    { id: 5, name: "Rashmi", age: "25", profession: "designer" },
+    { id: 6, name: "Bhavesh", age: "22", profession: "manager" },
+    { id: 7, name: "Sunil", age: "28", profession: "tester" },
   ];
   let concatenatedArr = arr.concat(newArr);
   console.log(concatenatedArr);
 }
+
+
+PrintDeveloperbyMap();
+PrintDeveloperbyForEach();
+addData();
+removeAdmin();
+concatenateArray();
